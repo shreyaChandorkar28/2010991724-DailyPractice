@@ -1,0 +1,20 @@
+body {
+    background-color: aqua;
+    background: linear-gradient(
+        to bottom,
+        rgb(204,299,255),
+        rgba(204,229,255,0.4)
+        );
+    font-size: 1.15em;
+    text-align: justify;
+}
+
+#myTitle {
+    color: red;
+}
+.h1Element {
+    color: chartreuse;
+}
+h1 {
+    color: blue;
+}
