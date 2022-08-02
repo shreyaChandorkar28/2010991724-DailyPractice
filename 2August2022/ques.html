@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fn(){
+            let b = document.getElementById("b").value;
+            let t = document.getElementById("t").value;
+
+            b = Number(b);
+            t = Number(t);
+
+            if(b>t){
+                var size = parseInt(b/t);
+                var rem = b%t;
+                size = Number(size);
+                rem = Number(rem);
+
+                document.getElementById("p1").innerHTML = "Number of balls distributed: " + size + " Number of balls remaining: " +rem; 
+            }
+            else{
+                document.getElementById("p1").innerHTML = "Balls should be greater than the members";
+            }
+        }
+    </script>
+</head>
+<body>
+    Total Balls <input type="text" name="n1" id="b">
+    <br>
+    Number of Members <input type="text" name="n1" id="t">
+    <br>
+    <button onclick="fn()">Click</button>
+    <p id="p1"></p>
+</body>
+</html>
