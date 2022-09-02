@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './component/Header';
+import Header1 from './component/Header1';
 
 function App() {
   return (
@@ -21,9 +21,14 @@ function App() {
     //   </header>
     // </div>
     <div className="container">
-      <Header/>
+       <Header1 title="React Tutorial"></Header1>
+      <Header1 title1="react tutorial 1234"></Header1> 
+      
+     
     </div>
   );
 }
+
+
 
 export default App;

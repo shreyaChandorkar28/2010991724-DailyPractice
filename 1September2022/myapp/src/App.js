@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './component/Header';
+import Header from './component/2September2022';
 
 function App() {
   return (
@@ -20,8 +20,11 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <div className="container">
-      <Header/>
+    // <div className="container">
+    //   <Header/>
+    // </div>
+    <div className = "container">
+      <Header title="React Tutorial"></Header>
     </div>
   );
 }
