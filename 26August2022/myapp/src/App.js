@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Header1 from './component/Header1';
+import Header1 from './component/Header3';
 
 function App() {
   return (
@@ -20,12 +20,16 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <div className="container">
-       <Header1 title="React Tutorial"></Header1>
-      <Header1 title1="react tutorial 1234"></Header1> 
+    // <div className="container">
+       
+    //   <Header1 title1="react tutorial 1234"></Header1> 
       
      
-    </div>
+    // </div>
+
+    <div className='container'>
+ <Header1 title = {'Komal'}/>
+ </div>
   );
 }
 
