@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Header1 from './component/Header3';
+import Header1 from './component/Header4';
+import Button from "./Button/Button";
 
 function App() {
   return (
@@ -21,18 +22,16 @@ function App() {
     //   </header>
     // </div>
     // <div className="container">
-       
+
     //   <Header1 title1="react tutorial 1234"></Header1> 
-      
-     
+
+
     // </div>
 
     <div className='container'>
- <Header1 title = {'Komal'}/>
- </div>
+      <Header1 />
+    </div>
   );
 }
-
-
 
 export default App;
