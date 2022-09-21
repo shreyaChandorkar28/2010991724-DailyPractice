@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ST-3 Project</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="div1">
+            <h1>Your Weight On Other Planets</h1>
+            <br><br>
+            <h2>Enter your weight here </h2>
+            <h2>And click on the planets for the weight on them</h2>
+            <input id = "weight" type="number"> 
+            <br> <br> <br>
+            <hr>
+        </div>
+        <div class="div2">
+            <h1>The Planets</h1>
+            
+
+            <table>
+                <tr >
+                    <td style="text-align: center;">Mercury
+                    <br> <p id="mw" class="ani"></p></td>
+                    <td style="text-align: center;"><img class="mercury"
+                        src="mercury.gif" alt="mercury" onclick="calculateMercury()"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;"><img class="venus"src="venus.webp" alt="venus" onclick="calculateVenus()"></td>
+                    <td style="text-align: center;">Venus <br> <p id="vw" class="ani"></p> </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Moon <br> <p id="mow" class="ani"></p> </td>
+                    <td style="text-align: center;"><img class="moon"
+                        src="moon.webp" alt="moon" onclick="calculateMoon()"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;"><img class="mars" src="mars2.gif" alt="mars" onclick="calculateMars()"></td>
+                    <td style="text-align: center;">Mars <br> <p id="maw" class="ani"></p> </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Jupiter <br> <p id="jw" class="ani"></p> </td>
+                    <td style="text-align: center;"><img class="jupiter" src="jupiter.webp" alt="jupiter" onclick="calculateJupiter()"></td>
+                </tr>
+                <tr>
+                    <td><img class="saturn" src="saturn.gif" alt="saturn" onclick="calculateSaturn()"></td>
+                    <td style="text-align: center;">Saturn <br> <p id="sw" class="ani"></p></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Uranus <br> <p id="uw" class="ani"></p></td>
+                    <td style="text-align: center;"><img class="uranus"src="uranus.gif" alt="uranus" onclick="calculateUranus()"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;"><img class="neptune" src="neptune.gif" alt="neptune" onclick="calculateNeptune()"></td>
+                    <td style="text-align: center;">Neptune <br> <p id="nw" class="ani"></p></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Pluto <br> <p id="pw" class="ani"></p> </td>
+                    <td style="text-align: center;"><img class="pluto"src="pluto.gif" alt="pluto" onclick="calculatePluto()"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

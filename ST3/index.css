@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body{
+    background-color: black;
+    /* background-image: url(https://media3.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif?cid=ecf05e473vfhz2s6r0izqxrx6sb2oaznpbbnhos06rkjvmqs&rid=giphy.gif&ct=g);  */
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.main{
+    justify-content: center;
+    height: 80%;
+    color: white;   
+}
+.div1{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+.mercury{
+    width: 400px;
+    height: 400px;
+}
+.venus{
+    width: 530px;
+    height: 400px;
+}
+.moon{
+    width: 400px;
+    height: 400px;
+}
+.mars{
+    height: 450px;
+    width: 450px;
+}
+.jupiter{
+    height: 400px;
+    width: 550px;
+}
+.saturn{
+    height: 400px;
+    width: 400px;
+}
+.uranus{
+    height: 450px;
+    width: 450px;
+}
+.neptune{
+    height: 400px;
+    width: 500px;
+}
+.pluto{
+    height: 400px;
+    width: 400px;
+}
+table{
+    width: 100%;
+    border-style: none;
+}
+th, td {
+    width: 50%;
+    padding: 15px;
+    font-size: 25px;
+  }
+.mercury, .venus, .moon, .mars, .jupiter, .saturn, .uranus, .neptune {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+img{
+    cursor: pointer;
+    
+}
+.ani{
+    animation: anim 6000ms linear 1s infinite;
+    opacity: 0;
+}
+
+@keyframes anim {
+    25% {opacity: 0.3;}
+    50% {opacity: 0.5;}
+    75% {opacity: 0.7;}
+    100% {opacity: 1;}
+}
+
+input[type=number]{
+    width: 20%;
+    padding: 12px 20px;
+    border-radius: 5px;
+
+}
